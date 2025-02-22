@@ -56,21 +56,11 @@ env\Scripts\activate
 ```
 
 ### 3. Install Dependencies
-Run the following command to install required Python libraries:
+Refers to the README.md in the code folder.
 
-```bash
-pip install pandas==1.2.4 matplotlib==3.4.3 networkx==2.5 numpy==1.19.2
-```
 
-### 4. Verify Installation
-Ensure all libraries are correctly installed by running:
-
-```bash
-python -c "import pandas, matplotlib, networkx, numpy; print('Setup successful!')"
-```
-
-### 5. Run EDA Notebook
-Navigate to the `code` directory and run the `EDA.ipynb` Jupyter Notebook.
+### 4. Run Jupyter Notebook
+Navigate to the `code` directory and run the `causal_inference.ipynb` `Explanation.ipynb` `prediction.ipynb` Jupyter Notebook.
 
 
 ## 2️⃣ Cloud Setup
@@ -92,27 +82,25 @@ Navigate to a suitable directory in your Google Drive and clone the repository:
 
 ```bash
 %cd /content/drive/MyDrive/
-git clone https://github.com/Rising-Stars-by-Sunshine/Boen-PS1.git
-%cd Boen-PS1/code
+git clone https://github.com/Rising-Stars-by-Sunshine/Boen-PS2.git
+%cd Boen-PS2/code
 ```
 
 #### 3. Install Dependencies
-Install the required dependencies:
-
-```bash
-!pip install pandas==1.2.4 matplotlib==3.4.3 networkx==2.5 numpy==1.19.2
-```
+Refers to the README.md in the code folder.
 
 #### 4. Run Jupyter Notebook
-Run the following command to open `EDA.ipynb` in Colab:
+Run the following command to open `causal_inference.ipynb` `Explanation.ipynb` `prediction.ipynb` in Colab:
 
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
 
-%cd /content/drive/MyDrive/Boen-PS1/code
+%cd /content/drive/MyDrive/Boen-PS2/code
 
 import os
-os.system('jupyter nbconvert --to notebook --execute EDA.ipynb')
+os.system('jupyter nbconvert --to notebook --execute causal_inference.ipynb')
+os.system('jupyter nbconvert --to notebook --execute Explanation.ipynb')
+os.system('jupyter nbconvert --to notebook --execute prediction.ipynb')
 
 
