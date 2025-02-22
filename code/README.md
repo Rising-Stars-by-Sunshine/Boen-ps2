@@ -17,7 +17,7 @@ This folder contains Jupyter Notebooks for analyzing **Twitter Bot Detection**, 
 ## 3. Prerequisites
 
 ### Required Libraries and Versions:
-
+- **Python 3.9**
 - **networkx==2.5**
 - **easygraph==1.4.1**
 - **pandas==1.3.2**
