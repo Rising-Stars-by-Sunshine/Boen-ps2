@@ -82,13 +82,15 @@ This folder contains Jupyter Notebooks for analyzing **Twitter Bot Detection**, 
 ## 5. Expected Outputs
 
 - **Visualizations**: 
-  - CDF of centrality measures between human and bot, distirbution of centrality mesuares and plot of training loss of Hypergraph Neural Network(HGNN) .
+  - CDF of centrality measures between human and bot, distirbution of centrality mesuares, plot of training loss of Hypergraph Neural Network(HGNN), and Regression plot of Regression Discontinuity Design(RD).
   
 - **Performance Metrics**: 
-  - Metrics like accuracy, ROC-AUC for bot detection models.
+  - Predcitve metrics like accuracy, ROC-AUC for bot detection models.
 
 - **Explanatory Insights**:
-  - For causal inference, insights into the causal effects of Twitter’s subscription program on user engagement.
+  - For causal inference, insights into the causal effects of Twitter’s subscription program on user engagement and whether incorporating subscription status as a feature could enhance model's predictive performance .
+  - For Social Network Analysis, insights into the positional difference(centrality mesuares) of human and bot in the network.
+  - For Prediction, insights into whether group interaction can detect the bot effectively.
 
 ## 6. Contributors
 
