@@ -47,7 +47,7 @@ Due to the large size of Twibot-22, this sample includes **1,000 users**, preser
 To ensure data consistency and usability, the following preprocessing steps were applied:
 
 1. **Filtering Users**:  
-   - Selected a **balanced subset of 1,000 users**, ensuring diversity in bot/human distribution.
+   - Selected a **subset of 1,000 users**, ensuring diversity in bot/human distribution.
    - Removed inactive or deleted accounts from the original dataset.
 
 2. **Graph Structure Processing**:  
