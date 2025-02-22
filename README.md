@@ -34,18 +34,6 @@ Due to the large size of Twibot-22, this project includes a **sample of 1,000 us
 ### 1. Clone the Repository
 Open a terminal and run:
 
-
-```python
-from google.colab import drive
-drive.mount('/content/drive')
-
-%cd /content/drive/MyDrive/Boen-PS1/code
-
-import os
-os.system('jupyter nbconvert --to notebook --execute EDA.ipynb')
-
-
-
 ```bash
 git clone https://github.com/Rising-Stars-by-Sunshine/Boen-ps2.git
 cd Boen-ps2
